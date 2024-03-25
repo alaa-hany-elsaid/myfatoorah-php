@@ -215,6 +215,24 @@ class MyFatoorah
         return $this;
     }
 
+
+
+    /**
+     * Sets Currency
+     * @param string $currencyCode
+     * @return self
+     */
+    public function setCurrency($currencyCode)
+    {
+        $this->_customerName = $name;
+        $this->_customerEmail = $email;
+        $this->_customerPhone = $phone;
+
+        return $this;
+    }
+
+    
+
     /**
      * Set the reference id for this payment
      * This should be a unique record referencing this payment attempt
